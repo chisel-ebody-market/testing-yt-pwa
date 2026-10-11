@@ -7,36 +7,30 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="icon" type="image/x-icon" href="/favicon.png">
     <title>YouTube PWA</title>
-    <script>
-              window.location.replace("https://m.youtube.com/?persist_app=1&app=m");
-
-    </script>
     <style>
+        body{
+              font-family: 'Courier New', monospace;
+        }
 
-      body {
-        margin: 0;
+      button{
+        height: 100px;
+        width: 200px;
         background: red;
+        border: none;
+        border-radius: 0%;
+        color: white;
       }
 
-      .iframe-wrap {
-        position: fixed;
-        inset: 0;
-      }
-
-      iframe {
-        width: 100%;
-        height: 100%;
-        border: 0;
-        display: block;
-        background: #000;
+      b{
+        font-size: 20px;
       }
     </style>
   </head>
   <body>
-    <!--
-    <div class="iframe-wrap">
-      <iframe src="https://m.youtube.com/?persist_app=1&app=m"></iframe>
-    </div>
-    -->
+    <center>
+        <h1>YouTube Web app</h1>
+        <hr>
+        <a href="https://m.youtube.com/?persist_app=1&app=m"><button><b>Launch YouTube</b></button></a>
+    </center>
   </body>
 </html>
